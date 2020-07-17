@@ -46,6 +46,10 @@
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: $primary;
+    &:hover {
+      // color: $indigo;
+      text-decoration: none;
+    }
 }
 
 header {
@@ -61,7 +65,7 @@ header {
         li.nav-item {
           &.active {
             a.nav-link {
-              color: $primary;
+              color: $indigo;
             }
           }
           a {
